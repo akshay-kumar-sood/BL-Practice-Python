@@ -1,3 +1,3 @@
 # BL-Practice-Python
 
-Attended DAY 3 assignment.
+Attended Python Function and recursion module
