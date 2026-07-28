@@ -5,3 +5,6 @@ Daily Progress tracking for Python Language.
 
 * Random Module
 * DateTime MOdule 
+* Statictics Module
+* Calendar Module
+* Numpy Module
