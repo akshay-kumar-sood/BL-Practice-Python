@@ -73,9 +73,19 @@ print(datetime.strptime(str,"%d %B %Y"))
 curr=datetime.now()
 print(curr.strftime("%d %B %Y"))
 
+# indian time
+import pytz
+from datetime import datetime
+
+india=pytz.timezone("Asia/Kolkata")
+time=datetime.now(india)
+print(time)
+
 
 #concept learned 
 # 1. datetime
 # 2. string to datetime
 # 3. datetime to string 
 # 4. important code values
+# 5. indian time zone
+# 6. .venv private viritual environment
