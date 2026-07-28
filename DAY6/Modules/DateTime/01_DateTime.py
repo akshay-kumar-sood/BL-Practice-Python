@@ -44,5 +44,38 @@ print(now.strftime("%A %d %B %Y"))
 # 1. datetime.now()
 # 2. strftime()
 
+# date %d
+# month %b
+# year %Y
+
+# strptime
+
+print("-------------------")
+day_string="28 July 2026"
+print(day_string)
+print(type(day_string))
+date_object=datetime.strptime(day_string,"%d %B %Y")
+print(date_object)
+print(type(date_object))
 
 
+
+# %d %m %b %B %y %Y %a %A %M %S %H
+
+# string to datetime
+
+from datetime import date,time,datetime
+str="28 July 2026"
+print(datetime.strptime(str,"%d %B %Y"))
+
+# datetime to string
+
+curr=datetime.now()
+print(curr.strftime("%d %B %Y"))
+
+
+#concept learned 
+# 1. datetime
+# 2. string to datetime
+# 3. datetime to string 
+# 4. important code values
