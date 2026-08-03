@@ -1,12 +1,12 @@
 # 🐍 Day 10 - Python Tuple & Set
 
-## 📖 Overview
+## Overview
 
 This module covers **Tuples** and **Sets** in Python
 
 ---
 
-## 📚 Topics Covered
+## Topics Covered
 
 ### Tuple
 - Creating Tuples
